@@ -9,13 +9,13 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Import" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_create_parcel"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Create parcel" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_follow_parcel"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Follow your parcel" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"

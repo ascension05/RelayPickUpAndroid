@@ -6,4 +6,17 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="label_password">Password</string>
+    <string name="label_email">Email</string>
+
+    <string name="action_login">Login</string>
+
+    <string name="error_format_invalid">Format is invalid</string>
+    <string name="error_too_short">Too short</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
