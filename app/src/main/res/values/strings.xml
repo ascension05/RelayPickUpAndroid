@@ -7,13 +7,34 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    //People Information
     <string name="label_password">Password</string>
     <string name="label_email">Email</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_address">Address</string>
 
+    //Parcel Information
+    <string name="label_weight_number">Weight number</string>
+    <string name="label_parcel_category">Category</string>
+    <string name="label_delivery_mode">delivery mode</string>
+    <string name="label_code">Code</string>
+
+
+
+    //Boutton
     <string name="action_login">Login</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Submit</string>
+    <string name="review">Review</string>
+    <string name="search">Search</string>
 
+    //Errors messages
     <string name="error_format_invalid">Format is invalid</string>
     <string name="error_too_short">Too short</string>
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

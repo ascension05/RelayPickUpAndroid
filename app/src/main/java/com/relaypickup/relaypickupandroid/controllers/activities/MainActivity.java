@@ -1,4 +1,4 @@
-package com.relaypickup.relaypickupandroid;
+package com.relaypickup.relaypickupandroid.controllers.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -13,6 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.relaypickup.relaypickupandroid.controllers.fragments.CreateParcelFragment;
+import com.relaypickup.relaypickupandroid.controllers.fragments.FollowParcelFragment;
+import com.relaypickup.relaypickupandroid.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -137,7 +141,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void showFollowParcelFragment(){
-        if (this.fragmentFollowParcel == null) this.fragmentFollowParcel = FollowParcelFragment.newInstance("Follow", "Parcel");
+        if (this.fragmentFollowParcel == null) this.fragmentFollowParcel = FollowParcelFragment.newInstance();
         this.startTransactionFragment(this.fragmentFollowParcel);
     }
 

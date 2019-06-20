@@ -8,7 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.relaypickup.relaypickupandroid.MainActivity;
+import com.relaypickup.relaypickupandroid.controllers.activities.MainActivity;
 import com.relaypickup.relaypickupandroid.Net.RelayPickupNetService.RelayPickupNetCalls;
 import com.relaypickup.relaypickupandroid.Net.utils.NetworkAsyncTask;
 import com.relaypickup.relaypickupandroid.R;

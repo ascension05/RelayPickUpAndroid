@@ -3,7 +3,13 @@ package com.relaypickup.relaypickupandroid.models;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class RelayPickupUser {
+
+    @SerializedName("packages")
+    @Expose
+    private List<Object> packages = null;
 
     @SerializedName("idAddress")
     @Expose
@@ -50,6 +56,18 @@ public class RelayPickupUser {
     @SerializedName("profile")
     @Expose
     private Profile profile;
+
+    public RelayPickupUser() {
+        super();
+    }
+
+    public List<Object> getPackages() {
+        return packages;
+    }
+
+    public void setPackages(List<Object> packages) {
+        this.packages = packages;
+    }
 
     public Integer getIdAddress() {
         return idAddress;
